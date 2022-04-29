@@ -1,0 +1,69 @@
+CRITICAL - 2022-04-20 07:36:54 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\codeigniter\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\codeigniter\spark(45): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-20 00:53:53 --> Undefined variable $route
+#0 C:\xampp\htdocs\codeigniter\app\Config\Routes.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(713): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter\spark(63): CodeIgniter\CLI\Console->run()
+#6 {main}
+CRITICAL - 2022-04-20 00:54:34 --> Invalid file: site_index.php
+#0 C:\xampp\htdocs\codeigniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site_index.php')
+#1 C:\xampp\htdocs\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('site_index', Array, true)
+#2 C:\xampp\htdocs\codeigniter\app\Controllers\Site.php(11): view('site_index')
+#3 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(832): App\Controllers\Site->index()
+#4 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site))
+#5 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-20 21:53:33 --> Invalid file: product_view.php
+#0 C:\xampp\htdocs\codeigniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product_view.ph...')
+#1 C:\xampp\htdocs\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('product_view', Array, true)
+#2 C:\xampp\htdocs\codeigniter\app\Controllers\Product.php(13): view('product_view', Array)
+#3 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(832): App\Controllers\Product->index()
+#4 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#5 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-20 21:56:38 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\codeigniter\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('product')
+#1 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('product')
+#2 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-20 22:06:53 --> syntax error, unexpected token ";", expecting ")"
+#0 C:\xampp\htdocs\codeigniter\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('product/add_new')
+#1 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('product/add_new')
+#2 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-20 22:26:24 --> Invalid file: product/edit_product_view.php
+#0 C:\xampp\htdocs\codeigniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product/edit_pr...')
+#1 C:\xampp\htdocs\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('product/edit_pr...', Array, true)
+#2 C:\xampp\htdocs\codeigniter\app\Controllers\Product.php(33): view('product/edit_pr...', Array)
+#3 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(832): App\Controllers\Product->edit('1')
+#4 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#5 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-20 23:28:58 --> Undefined variable $id
+#0 C:\xampp\htdocs\codeigniter\app\Models\Product_model.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\codeigniter\app\Controllers\Product.php(49): App\models\Product_model->deleteProduct('3')
+#2 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(832): App\Controllers\Product->delete('3')
+#3 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#4 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
