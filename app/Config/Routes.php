@@ -51,3 +51,4 @@ if (file_exists(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
 }
 $routes->get('jap','Site::index');
 $routes->get('japye','SiteController::index');
+$routes->add("about-us","Site:aboutUs");
